@@ -37,7 +37,7 @@
 
 6. **Clone Repository Odoo**
    - Buat folder baru bernama `Training`.
-   - Buka CMD dan navigasikan ke folder `Training`:
+   - Buka Command Prompt didalam folder `Training`:
      ```
      cd Training
      ```
