@@ -17,6 +17,7 @@
      ```
 
 3. **Konfigurasi PostgreSQL**
+   - Buka Command Promt atau cmd.
    - Masuk ke PostgreSQL dengan perintah:
      ```
      psql -U postgres
@@ -31,10 +32,10 @@
      \du
      ```
 
-4. **Install Git**
+5. **Install Git**
    - Download dan install Git dari [Git Downloads](https://git-scm.com/downloads).
 
-5. **Clone Repository Odoo**
+6. **Clone Repository Odoo**
    - Buat folder baru bernama `Training`.
    - Buka CMD dan navigasikan ke folder `Training`:
      ```
@@ -45,7 +46,7 @@
      git clone --branch 16.0 --depth 1 https://github.com/odoo/odoo.git
      ```
 
-6. **Setup Virtual Environment**
+7. **Setup Virtual Environment**
    - Buat virtual environment dengan Python:
      ```
      python -m venv env-odoo16
