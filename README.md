@@ -8,7 +8,7 @@
      ```
 
 2. **Instal PostgreSQL versi 16**
-   - Download dan install PostgreSQL versi 16.
+   - Download dan install PostgreSQL versi 15.
    - Saat instalasi, pilih password yang mudah diingat.
    - Setelah PostgreSQL terinstal, tambahkan folder `bin` PostgreSQL ke Environment Variables.
    - Untuk memastikan PostgreSQL berhasil terinstal, ketikkan perintah berikut di CMD:
