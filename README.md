@@ -7,7 +7,7 @@
      python --version
      ```
 
-2. **Instal PostgreSQL versi 16**
+2. **Instal PostgreSQL versi 15**
    - Download dan install PostgreSQL versi 15.
    - Saat instalasi, pilih password yang mudah diingat.
    - Setelah PostgreSQL terinstal, tambahkan folder `bin` PostgreSQL ke Environment Variables.
