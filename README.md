@@ -58,9 +58,7 @@
      ```
      cd odoo
      ```
-
-7. **Install Dependencies**
-   - Install `setuptools` dan `wheel`:
+   - Install dependencies `setuptools` dan `wheel`:
      ```
      pip install setuptools wheel
      ```
