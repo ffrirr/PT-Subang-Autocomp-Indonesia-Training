@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Training Odoo 16",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            // untuk python isikan path python yang ada pada foder virtual environment
+            "python": "C:/Users/firwin/Documents/Training/env-odoo16/Scripts/python",
+            // untuk python isikan path file odoo-bin yang ada di folder odoo            
+            "program": "C:/Users/firwin/Documents/Training/odoo/odoo-bin",
+            "args": [
+                // untuk config isikan file conf yang ada pada folder conf
+                "--config=C:/Users/firwin/Documents/Training/conf/training.conf",
+                "--dev=xml",
+                // "--database=odoo16_arkana_training",
+            ]
+        },
+    ]
+}
