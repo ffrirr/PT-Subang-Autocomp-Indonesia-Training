@@ -68,4 +68,25 @@
      pip install -r requirements.txt
      ```
 
+- odoo conf
+```
+[options]
+addons_path = C:\Users\firwin\Documents\Training\training_module,C:\Users\firwin\Documents\Training\odoo\addons
+admin_passwd = odoo
+db_host = localhost
+db_name = False
+db_password =odoo_user
+db_port = 5432
+db_user =odoo_user 
+dbfilter =
+http_port = 8010
+xmlrpc_port = 8010
+list_db = True
+log_db = False
+log_db_level = warning
+log_handler = :INFO
+log_level = info
+logfile = 
+default_productivity_apps = True
+```
 ---
