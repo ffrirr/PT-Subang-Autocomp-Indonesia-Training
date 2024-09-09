@@ -89,4 +89,27 @@ log_level = info
 logfile = 
 default_productivity_apps = True
 ```
+- python configurasi debuger
+```
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Training Odoo 16",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "python": "C:/Users/firwin/Documents/Training/env-odoo16/Scripts/python",
+            "program": "C:/Users/firwin/Documents/Training/odoo/odoo-bin",
+            "args": [
+                "--config=C:/Users/firwin/Documents/Training/conf/training.conf",
+                "--dev=xml",
+                // "--database=odoo16_arkana_training",
+            ]
+        },
+    ]
+}
+``
 ---
