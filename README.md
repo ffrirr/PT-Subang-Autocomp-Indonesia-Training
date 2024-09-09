@@ -111,5 +111,21 @@ default_productivity_apps = True
         },
     ]
 }
-``
+```
+- example for estate_property
+```
+from odoo import models, fields
+
+
+class EstateProperty(models.Model):
+    _name = 'estate.property'
+    _description = 'Estate Property'
+
+    name = fields.Char(string='Name')
+    description = fields.Text(string='Description')
+    postcode = fields.Char(string='Postcode')
+    date_availability = fields.Date(string='Date Availability')
+    expected_price = fields.Float(string='Expected Price')
+    selling_price = fields.Float(string='Selling Price')
+```
 ---
