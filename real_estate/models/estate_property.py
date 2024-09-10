@@ -22,6 +22,9 @@ class EstateProperty(models.Model):
                                                     ('s', 'S'),
                                                     ('e', 'E'),
                                                     ('w', 'W'),])
+    estate_property_type_id = fields.Many2one(comodel_name='estate.property.type',
+                                                string='Property Type')
+    
     
     
     
