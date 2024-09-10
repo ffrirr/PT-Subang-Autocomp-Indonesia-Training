@@ -1,4 +1,6 @@
 ## Panduan Instalasi Odoo 16 di Windows
+**Link Penting**
+https://www.odoo.com/documentation/16.0/developer/tutorials/getting_started.html
 
 1. **Instal Python 3.8.10**
    - Install Python 3.8.10 dari Microsoft Store.
