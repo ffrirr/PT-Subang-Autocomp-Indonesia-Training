@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- estate.property inherit form view -->
+    <record id="estate_property_inherit_view_form" model="ir.ui.view">
+        <field name="name">estate.property.inherit.view.form</field>
+        <field name="model">estate.property</field>
+        <field name="inherit_id" ref="real_estate.estate_property_view_form"/>
+        <field name="arch" type="xml">
+            <!-- Add your xpath here -->
+            <xpath expr="//notebook/page[2]" position="after">
+                <page string="Info">
+                    <group>
+                    <field name="seller_id" readonly="1"/>
+                    <field name="buyer_id" readonly="1"/>
+                    </group>
+                </page>
+            </xpath>   
+        </field>
+    </record>
+</odoo>
