@@ -16,7 +16,9 @@
                 // untuk config isikan file conf yang ada pada folder conf
                 "--config=C:/Users/firwin/Documents/Training/conf/training.conf",
                 "--dev=xml",
-                // "--database=odoo16_arkana_training",
+                "--update=real_estate_user",
+                "--database=odoo16_db"
+
             ]
         },
     ]
