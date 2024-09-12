@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <odoo>
-  <menuitem id="estate_menu_root" name="Real Estate">
+  <menuitem id="estate_menu_root" name="Real Estate" web_icon="real_estate,static/description/icon.png" sequence="1">
         <menuitem id="estate_advertisement_menu" name="Advertisements" sequence="5">
             <menuitem id="estate_property_menu_action" action="estate_property_action" sequence="5"/>
         </menuitem>
-        <menuitem id="settings" name="Settings" sequence="10">
-            <menuitem id="settings_menu_action" action="estate_property_type_action" sequence="5"/>
+        <menuitem id="settings" name="Settings" groups ="real_estate.group_real_estate_administrator" sequence="10">
+            <menuitem id="estate_property_type_menu_action" action="estate_property_type_action" sequence="5"/>
+            <menuitem id="estate_property_tag_menu_action" action="estate_property_tag_action" sequence="10"/>
         </menuitem>
   </menuitem>
 </odoo>
